@@ -4,24 +4,87 @@
 <head>
 	<title>Drones: Contact</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<style>
+		div.background {
+			background: url(images/shadow-drone.jpg) repeat;
+			border: 1px thin black;
+		}
+
+		div.transbox {
+			margin: 0px;
+			background-color: #ffffff;
+			border: 1px solid white;
+			opacity: 0.6;
+			filter: alpha(opacity=60);
+		}
+
+		div.transbox p {
+			margin: 9%;
+			font-weight: bolder;
+			color: #000000;
+			opacity: 100;
+		}
+	</style>
+
+
+
+
+
+
+
 </head>
 
 <body>
-	<h1>Contact</h1>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home<a/></li>
+	<div class="container">
+
+		<header>
+			<h1><i class="fa fa-envelope-o"></i>Contact</h1>
+		</header>
+		<style>
+			i {
+				padding: 5px
+			}
+		</style>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home<a/></li>
 				<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 
 
-	Drones are fun.
+		<div class="background">
+			<div class="transbox">
+				<p>DRONES ARE FUN.<i class="fa fa-smile-o"></i></p>
+			</div>
+		</div>
 
 
 
-	<img src="images/shadow-drone.jpg">
+
+
+
+		<style>
+			li a {
+				color: black;
+				font-weight: lighter;
+				text-shadow: 1px 1px lightgray;
+			}
+		</style>
+
+		<img src="images/shadow-drone.jpg">
+		<!-- END .main-content -->
+		<footer>
+			<p>&copy; 2017</p>
+		</footer>
+	</div>
+	<!-- END .container -->
+
 
 </body>
 

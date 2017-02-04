@@ -1,7 +1,62 @@
+div.transbox {
+    font-size: 18pt;
+    font-weight: bolder;
+}
+
+div.facts {
+    background: hsl(331, 100%, 64%);
+    height: 20px;
+    margin-right: 700px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+div.history {
+    background: hsl(331, 86%, 70%);
+    height: 20px;
+    margin-right: 700px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+div.references {
+    background: hsl(331, 100%, 82%);
+    height: 20px;
+    margin-right: 700px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+    width: 20%;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+div.background:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
 body {
     background-color: #FFE8ED;
     font-family: sans-serif;
     font-weight: lighter;
+    color: black;
 }
 
 .pink-box {
@@ -10,7 +65,7 @@ body {
     background-color: pink;
     padding: 10px 10px 10px 10px;
     font-family: sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 24;
 }
 
@@ -21,7 +76,8 @@ body {
     padding: 10px 10px 10px 10px;
     margin: 10px 0 0 0;
     font-family: sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
+    ;
     font-size: 24;
 }
 
@@ -36,37 +92,39 @@ body {
 /*for main nav*/
 
 ul {
-    list-style-type: none;
-    padding-bottom: 24px;
-    border-bottom: 1px solid white;
-    margin: 0;
+    margin: 5;
+    padding: 10px 0 20px 10px;
+    border-bottom: 3px double #000;
+    background-color: white;
 }
 
 li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+    color: black;
+    font-weight: lighter;
+}
+
+a:link {
     float: left;
-    height: 21px;
-    background-color: pink;
-    margin: 2px 2px 2px 2px;
-    border: 1px solid white;
-}
-
-ul li {
-    border-bottom: 1px solid #fff;
-    background-color: pink;
-}
-
-li a {
+    line-height: 14px;
+    font-weight: normal;
+    ;
+    ;
+    margin: 0 10px 4px 10px;
+    text-decoration: none;
     color: black;
 }
 
-a {
-    float: left;
-    display: block;
-    color: pink;
-    text-decoration: none;
-    padding: 4px;
+a:link a:visited a:hover {
+    border-bottom: 1px double #000;
+    padding-bottom: 0px;
+    background: transparent;
+    color: black;
 }
 
 a:hover {
-    background: white;
+    color: lightblue;
 }
