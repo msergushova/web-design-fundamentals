@@ -1,20 +1,28 @@
 body {
     background-color: #FFE8ED;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 
-.red-box {
+.pink-box {
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-color: pink;
     padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 24;
 }
 
 .blue-box {
     width: 200px;
     height: 200px;
-    background-color: blue;
+    background-color: lightblue;
     padding: 10px 10px 10px 10px;
     margin: 10px 0 0 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 24;
 }
 
 .container {
@@ -22,4 +30,43 @@ body {
     border: 1px solid #000000;
     padding: 20px;
     margin: 0 auto 0 auto;
+}
+
+
+/*for main nav*/
+
+ul {
+    list-style-type: none;
+    padding-bottom: 24px;
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+
+li {
+    float: left;
+    height: 21px;
+    background-color: pink;
+    margin: 2px 2px 2px 2px;
+    border: 1px solid white;
+}
+
+ul li {
+    border-bottom: 1px solid #fff;
+    background-color: pink;
+}
+
+li a {
+    color: black;
+}
+
+a {
+    float: left;
+    display: block;
+    color: pink;
+    text-decoration: none;
+    padding: 4px;
+}
+
+a:hover {
+    background: white;
 }
