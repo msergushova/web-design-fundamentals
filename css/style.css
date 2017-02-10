@@ -1,20 +1,20 @@
-div.transbox {
+.transbox {
     font-size: 18pt;
     font-weight: bolder;
 }
 
-div.facts {
+.facts {
     background: hsl(331, 100%, 64%);
     height: 20px;
-    margin-right: 700px;
+    margin-right: 0;
     font-family: sans-serif;
     font-weight: normal;
 }
 
-div.history {
+.history {
     background: hsl(331, 86%, 70%);
     height: 20px;
-    margin-right: 700px;
+    margin-right: 0;
     font-family: sans-serif;
     font-weight: normal;
 }
@@ -22,7 +22,7 @@ div.history {
 div.references {
     background: hsl(331, 100%, 82%);
     height: 20px;
-    margin-right: 700px;
+    margin-right: 0px;
     font-family: sans-serif;
     font-weight: normal;
 }
@@ -32,7 +32,7 @@ h1 {
 }
 
 p {
-    text-align: center;
+    text-align: left;
 }
 
 img {
@@ -60,25 +60,28 @@ body {
 }
 
 .pink-box {
-    width: 200px;
-    height: 200px;
+    width: 47%;
+    /*height: 200px;*/
     background-color: pink;
     padding: 10px 10px 10px 10px;
     font-family: sans-serif;
     font-weight: normal;
     font-size: 24;
+    float: left;
+    text-align: center;
 }
 
 .blue-box {
-    width: 200px;
-    height: 200px;
+    width: 47%;
+    /*height: 200px;*/
     background-color: lightblue;
     padding: 10px 10px 10px 10px;
-    margin: 10px 0 0 0;
+    margin: 0 0 0 0;
     font-family: sans-serif;
     font-weight: normal;
-    ;
     font-size: 24;
+    float: right;
+    text-align: center;
 }
 
 .container {
@@ -111,8 +114,6 @@ a:link {
     float: left;
     line-height: 14px;
     font-weight: normal;
-    ;
-    ;
     margin: 0 10px 4px 10px;
     text-decoration: none;
     color: black;
@@ -127,4 +128,9 @@ a:link a:visited a:hover {
 
 a:hover {
     color: lightblue;
+}
+
+footer {
+    clear: both;
+    padding-top: 10px;
 }
